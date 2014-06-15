@@ -1,28 +1,28 @@
-Wersja 0.99 kompilatora na J�zyki Formalne i Techniki Translacji.
+Wersja 0.99 kompilatora na Języki Formalne i Techniki Translacji.
 
-Jak u�ywa�?
-Wej�cie kompilatora odbywa si� przez standardowe wej�cie; wyj�cie odbywa si� przez standardowe wyj�cie.
-Przyk�ad u�ycia: c < program0.imp > wyjscie.out
-Output bezpo�rednio do interpretera: c < test.imp > test.out.txt && interpreter test.out.txt
+Jak używać?
+Wejście kompilatora odbywa się przez standardowe wejście; wyjście odbywa się przez standardowe wyjście.
+Przykład użycia: c < program0.imp > wyjscie.out
+Output bezpośrednio do interpretera: c < test.imp > test.out.txt && interpreter test.out.txt
 
 
-ZMIANY wzgl�dem ostatniej wersji: 
-- naprawienie buga z generowaniem warto�ci w rejestrze a
-- zmiana generowania warto�ci w rejestrze a z liniowej inkrementacji na logarytmiczn� kombinacj� inc-shl
-- zniesienie ograniczenia na wielko�� liczby
+ZMIANY względem ostatniej wersji: 
+- naprawienie buga z generowaniem wartości w rejestrze a
+- zmiana generowania wartości w rejestrze a z liniowej inkrementacji na logarytmiczną kombinację inc-shl
+- zniesienie ograniczenia na wielkość liczby
 - naprawienie buga z dzieleniem przez zero
 
-1. Funkcjonalno�ci:
-Zawarte s� wszystkie funkcje podstawowe, kt�re powinien obejmowa� ten kompilator - ca�a gramatyka jest "spe�niona".
+1. Funkcjonalności:
+Zawarte są wszystkie funkcje podstawowe, które powinien obejmować ten kompilator - cała gramatyka jest "spełniona".
 
 2. Rzeczy do zmiany:
-P�ki co niekt�re rzeczy s� robione bardzo brzydko, 
-- do�� brzydko zrealizowane dzielenie
-- nie zapisuj� sta�ych w rejestrze p, jedynie jest 'zast�powana' przez liczb� kt�r� reprezentuje; niepotrzebne generowanie 
-- brak sprawdzenia czy warto�� zmiennej zosta�a zdefiniowana
-- wiadomo�ci o b��dach...
+Póki co niektóre rzeczy są robione bardzo brzydko, 
+- dość brzydko zrealizowane dzielenie
+- nie zapisuję stałych w rejestrze p, jedynie jest 'zastępowana' przez liczbę którą reprezentuje; niepotrzebne generowanie 
+- brak sprawdzenia czy wartość zmiennej została zdefiniowana
+- wiadomości o błędach...
 
 
 3. Co ciekawego?
-a. szybkie mno�enie (pisemne)
+a. szybkie mnożenie (pisemne)
 
