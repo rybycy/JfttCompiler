@@ -1,0 +1,1 @@
+flex flex.l && bison -dy bison.y -o bison.tab.c && g++ lex.yy.c bison.tab.c -o c.exe 
