@@ -1,30 +1,28 @@
-AUTOR: Micha³ Robaszyñski 194165
+Wersja 0.99 kompilatora na Jï¿½zyki Formalne i Techniki Translacji.
 
-Wersja 0.99 kompilatora na Jêzyki Formalne i Techniki Translacji.
-
-Jak u¿ywaæ?
-Wejœcie kompilatora odbywa siê przez standardowe wejœcie; wyjœcie odbywa siê przez standardowe wyjœcie.
-Przyk³ad u¿ycia: c < program0.imp > wyjscie.out
-Output bezpoœrednio do interpretera: c < test.imp > test.out.txt && interpreter test.out.txt
+Jak uï¿½ywaï¿½?
+Wejï¿½cie kompilatora odbywa siï¿½ przez standardowe wejï¿½cie; wyjï¿½cie odbywa siï¿½ przez standardowe wyjï¿½cie.
+Przykï¿½ad uï¿½ycia: c < program0.imp > wyjscie.out
+Output bezpoï¿½rednio do interpretera: c < test.imp > test.out.txt && interpreter test.out.txt
 
 
-ZMIANY wzglêdem ostatniej wersji: 
-- naprawienie buga z generowaniem wartoœci w rejestrze a
-- zmiana generowania wartoœci w rejestrze a z liniowej inkrementacji na logarytmiczn¹ kombinacjê inc-shl
-- zniesienie ograniczenia na wielkoœæ liczby
+ZMIANY wzglï¿½dem ostatniej wersji: 
+- naprawienie buga z generowaniem wartoï¿½ci w rejestrze a
+- zmiana generowania wartoï¿½ci w rejestrze a z liniowej inkrementacji na logarytmicznï¿½ kombinacjï¿½ inc-shl
+- zniesienie ograniczenia na wielkoï¿½ï¿½ liczby
 - naprawienie buga z dzieleniem przez zero
 
-1. Funkcjonalnoœci:
-Zawarte s¹ wszystkie funkcje podstawowe, które powinien obejmowaæ ten kompilator - ca³a gramatyka jest "spe³niona".
+1. Funkcjonalnoï¿½ci:
+Zawarte sï¿½ wszystkie funkcje podstawowe, ktï¿½re powinien obejmowaï¿½ ten kompilator - caï¿½a gramatyka jest "speï¿½niona".
 
 2. Rzeczy do zmiany:
-Póki co niektóre rzeczy s¹ robione bardzo brzydko, 
-- doœæ brzydko zrealizowane dzielenie
-- nie zapisujê sta³ych w rejestrze p, jedynie jest 'zastêpowana' przez liczbê któr¹ reprezentuje; niepotrzebne generowanie 
-- brak sprawdzenia czy wartoœæ zmiennej zosta³a zdefiniowana
-- wiadomoœci o b³êdach...
+Pï¿½ki co niektï¿½re rzeczy sï¿½ robione bardzo brzydko, 
+- doï¿½ï¿½ brzydko zrealizowane dzielenie
+- nie zapisujï¿½ staï¿½ych w rejestrze p, jedynie jest 'zastï¿½powana' przez liczbï¿½ ktï¿½rï¿½ reprezentuje; niepotrzebne generowanie 
+- brak sprawdzenia czy wartoï¿½ï¿½ zmiennej zostaï¿½a zdefiniowana
+- wiadomoï¿½ci o bï¿½ï¿½dach...
 
 
 3. Co ciekawego?
-a. szybkie mno¿enie (pisemne)
+a. szybkie mnoï¿½enie (pisemne)
 
